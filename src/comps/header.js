@@ -1,13 +1,19 @@
 import { useContext } from "react";
-import mockData from "../mocks/Data";
-import { languageContext } from "../context/languageContext";
+
+import { languageContext } from "../context/LanguageContext";
 
 export const Header = () => {
-  const { language } = useContext(languageContext);
+  const { language, data } = useContext(languageContext);
   return (
-    <div>
-      <div>{mockData.headerSection.mode[language]}</div>
-      <div>{mockData.headerSection.dil.tr}</div>
-    </div>
+    <>
+      <div>
+        <div>{data.headerSection.mode[language]}</div>
+        <div>{data.headerSection.dil[language]}</div>
+        <div>{data.headerSection.selam[language]}</div>
+        <div>{data.headerSection.tanitim[language]}</div>
+        <div>{data.headerSection.davet[language]}</div>
+      </div>
+      <div>foto</div>
+    </>
   );
 };

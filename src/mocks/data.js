@@ -16,6 +16,10 @@ const mockData = {
       tr: "Ben Doğan. Ben bir full-stack geliştiricisiyim. Sağlam ve ölçeklenebilir ön uç ürünleri üretebilirim. Tanışalım!",
       en: "I’m Doğan. I’m a full-stack developer. I can craft solid and scalable frontend products. Let’s meet!",
     },
+    davet: {
+      tr: "Şu anda UX, UI ve Web Tasarım Projesi için Serbest Çalışıyor. Beni ekibinize katılmaya davet edin -> dgnyngz@gmail.com",
+      en: "Currently Freelancing for UX, UI, & Web Design Project . Invite me to join your team -> dgnyngz@gmail.com",
+    },
     yetenekler: {
       tr: "Yetenekler",
       en: "Skills",
