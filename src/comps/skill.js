@@ -11,19 +11,35 @@ export const Skills = () => {
   const { language, data } = useContext(languageContext);
   return (
     <>
-      <div>{data.headerSection.yetenekler[language]}</div>
-      <img src={jsLogo} alt="logo" width="40px"></img>
-      <h2>JAVASCRIPT</h2>
-      <img src={reactLogo} width="40px" alt="logo"></img>
-      <h2>REACT</h2>
-      <img src={reduxLogo} width="40px" alt="logo"></img>
-      <h2>REDUX</h2>
-      <img src={nodeLogo} width="40px" alt="logo"></img>
-      <h2>NODE</h2>
-      <img src={vsLogo} width="40px" alt="logo"></img>
-      <h2>VS CODE</h2>
-      <img src={figmaLogo} width="40px" alt="logo"></img>
-      <h2>FİGMA</h2>
+      <div className="baslik">
+        <h2>{data.headerSection.yetenekler[language]}</h2>
+      </div>
+      <div className="logo-container">
+        <div className="logolar">
+          <img src={jsLogo} alt="logo"></img>
+          <h2>JAVASCRIPT</h2>
+        </div>
+        <div className="logolar">
+          <img src={reactLogo} alt="logo"></img>
+          <h2>REACT</h2>
+        </div>
+        <div className="logolar">
+          <img src={reduxLogo} alt="logo"></img>
+          <h2>REDUX</h2>
+        </div>
+        <div className="logolar">
+          <img src={nodeLogo} alt="logo"></img>
+          <h2>NODE</h2>
+        </div>
+        <div className="logolar">
+          <img src={vsLogo} alt="logo"></img>
+          <h2>VS CODE</h2>
+        </div>
+        <div className="logolar">
+          <img src={figmaLogo} alt="logo"></img>
+          <h2>FİGMA</h2>
+        </div>
+      </div>
     </>
   );
 };
