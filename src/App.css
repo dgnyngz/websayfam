@@ -36,3 +36,89 @@
   font-size: 24px;
   line-height: 150%;
 }
+.mods {
+  display: flex;
+  justify-content: flex-end;
+  margin: 63px 157px 40px 924px;
+}
+.header {
+  width: 1440px;
+  height: 738px;
+}
+.dil {
+  width: 138px;
+  height: 18px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: 0.1em;
+
+  color: #e92577;
+}
+.mod {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: 0.1em;
+
+  color: #777777;
+}
+.cizgi {
+  display: flex;
+  align-items: center;
+  margin: 0 10px;
+}
+
+.cizgi hr {
+  border: none;
+  margin-left: 6px;
+  height: 100%;
+  width: 1px;
+  background-color: #777777;
+}
+.selam {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+  letter-spacing: 0.1em;
+
+  color: #000000;
+}
+.tanitim {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 42px;
+  line-height: 64px;
+  width: 666px;
+  height: 256px;
+
+  letter-spacing: 0.01em;
+
+  color: #0a0a14;
+}
+.davet {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  width: 540px;
+  height: 64px;
+  letter-spacing: 0.05em;
+
+  color: #000000;
+}
+.xx {
+  text-align: start;
+  display: flex;
+  flex-direction: column;
+  margin-left: 175px;
+}
