@@ -89,7 +89,7 @@
   font-size: 30px;
   line-height: 36px;
   letter-spacing: 0.1em;
-
+  margin-bottom: 30px;
   color: #000000;
 }
 .tanitim {
@@ -106,6 +106,7 @@
   color: #0a0a14;
 }
 .davet {
+  margin-top: 50px;
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
@@ -122,4 +123,14 @@
   display: flex;
   flex-direction: column;
   margin-left: 175px;
+}
+.header-main {
+  display: flex;
+  margin: 151px 171px 94px 162px;
+}
+.header-icons {
+  margin-top: 30px;
+}
+.header-icons a {
+  margin: 10px;
 }
