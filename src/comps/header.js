@@ -3,7 +3,10 @@ import { useContext } from "react";
 import { languageContext } from "../context/LanguageContext";
 
 export const Header = () => {
-  const { language, data } = useContext(languageContext);
+  const { language, data, setLanguage } = useContext(languageContext);
+  function dilDegis() {
+    setLanguage(language === "tr" ? "en" : "tr");
+  }
   return (
     <>
       <div className="header">
@@ -12,7 +15,11 @@ export const Header = () => {
           <div className="cizgi">
             <hr />
           </div>
-          <div className="dil">{data.headerSection.dil[language]}</div>
+          <div className="dil">
+            <button onClick={dilDegis} className="dil-button">
+              {data.headerSection.dil[language]}
+            </button>
+          </div>
         </div>
         <div className="xx">
           <div className="selam">{data.headerSection.selam[language]}</div>

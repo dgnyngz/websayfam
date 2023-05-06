@@ -5,8 +5,8 @@ const mockData = {
       en: "Dark Mode",
     },
     dil: {
-      tr: "Türkçe'ye Geç",
-      en: "Switch to English",
+      en: "Türkçe'ye Geç",
+      tr: "Switch to English",
     },
     selam: {
       tr: "Selam!",
