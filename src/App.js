@@ -1,6 +1,8 @@
 import "./App.css";
 import { Header } from "./comps/Header";
+
 import { Skills } from "./comps/Skill";
+import { Profile } from "./comps/Profile";
 import { themeContext } from "./context/ThemeContext";
 import { languageContext } from "./context/LanguageContext";
 import { useEffect, useState } from "react";
@@ -36,6 +38,7 @@ function App() {
         <languageContext.Provider value={{ language, setLanguage, data }}>
           <Header />
           <Skills />
+          <Profile />
         </languageContext.Provider>
       </themeContext.Provider>
     </div>

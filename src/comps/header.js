@@ -30,11 +30,21 @@ export const Header = () => {
             </div>
             <div className="header-icons">
               <a href="https://www.linkedin.com/in/do%C4%9Fan-yang%C3%B6z-4b9b22219/">
-                <img src={linkedin} width="31px" height="33.6"></img>
+                <img
+                  src={linkedin}
+                  width="31px"
+                  height="33.6"
+                  alt="linkedinİcon"
+                ></img>
               </a>
 
               <a href="https://github.com/dgnyngz">
-                <img src={github} width="31px" height="33.6"></img>
+                <img
+                  src={github}
+                  width="31px"
+                  height="33.6"
+                  alt="githubİcon"
+                ></img>
               </a>
             </div>
             <div className="davet">{data.headerSection.davet[language]}</div>
