@@ -56,8 +56,10 @@
   line-height: 18px;
   letter-spacing: 0.1em;
   cursor: pointer;
-
+  border: none;
   color: #e92577;
+  text-decoration: none;
+  background-color: white;
 }
 .mod {
   font-family: "Inter";

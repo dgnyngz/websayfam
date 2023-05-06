@@ -1,5 +1,5 @@
 import { useContext } from "react";
-import fotoSvg from "../logolar/fotograf.svg";
+// import fotoSvg from "../logolar/fotograf.svg";
 import linkedin from "../logolar/linkedin.svg";
 import { languageContext } from "../context/LanguageContext";
 import github from "../logolar/github.svg";
@@ -39,9 +39,7 @@ export const Header = () => {
             </div>
             <div className="davet">{data.headerSection.davet[language]}</div>
           </div>
-          <div>
-            <img src={fotoSvg}></img>
-          </div>
+          <div>{/* <img src={fotoSvg}></img> */}</div>
         </div>
       </div>
     </>
