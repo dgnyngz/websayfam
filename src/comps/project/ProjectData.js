@@ -1,4 +1,4 @@
-const projects = [
+const ProjectsData = [
   {
     id: 1,
     proje: "Pizza Order ",
@@ -7,14 +7,14 @@ const projects = [
     linkler: [
       {
         linkIsim: "View Site",
-        site: "",
+        site: "https://github.com/dgnyngz/fsweb-s7-challenge-pizza",
       },
       {
         linkIsim: "Github",
         site: "https://github.com/dgnyngz/fsweb-s7-challenge-pizza",
       },
     ],
-    imageLink: pizzaProject,
+    // imageLink: pizzaProject,
   },
   {
     id: 2,
@@ -24,14 +24,14 @@ const projects = [
     linkler: [
       {
         linkIsim: "View Site",
-        site: "",
+        site: "https://github.com/dgnyngz/fsweb-s7-challenge-pizza",
       },
       {
         linkIsim: "Github",
         site: "https://github.com/dgnyngz/fsweb-s7-challenge-pizza",
       },
     ],
-    imageLink: pizzaProject,
+    // imageLink: pizzaProject,
   },
   {
     id: 3,
@@ -41,14 +41,14 @@ const projects = [
     linkler: [
       {
         linkIsim: "View Site",
-        site: "",
+        site: "https://github.com/dgnyngz/fsweb-s7-challenge-pizza",
       },
       {
         linkIsim: "Github",
         site: "https://github.com/dgnyngz/fsweb-s7-challenge-pizza",
       },
     ],
-    imageLink: pizzaProject,
+    // imageLink: pizzaProject,
   },
   {
     id: 4,
@@ -65,6 +65,7 @@ const projects = [
         site: "https://github.com/dgnyngz/fsweb-s7-challenge-pizza",
       },
     ],
-    imageLink: pizzaProject,
+    // imageLink: pizzaProject,
   },
 ];
+export default ProjectsData;

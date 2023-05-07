@@ -13,7 +13,7 @@ export const Footer = () => {
           <div className="links">
             <a href="https://github.com/dgnyngz">GitHub</a>
             <br />
-            <a>Personal Blog</a>
+            <a href="https://github.com/dgnyngz">Personal Blog</a>
             <br />
             <a href="https://www.linkedin.com/in/do%C4%9Fan-yang%C3%B6z-4b9b22219/">
               Linkedin

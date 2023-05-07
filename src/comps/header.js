@@ -49,7 +49,7 @@ export const Header = () => {
             </div>
             <div className="davet">{data.headerSection.davet[language]}</div>
           </div>
-          <div>{/* <img src={fotoSvg}></img> */}</div>
+          <div className="foto">{/* <img src={fotoSvg}></img> */}</div>
         </div>
       </div>
     </>

@@ -3,6 +3,7 @@
 }
 .baslik {
   display: flex;
+  background-color: #ffffff;
   justify-content: center;
 }
 .baslik h2 {
@@ -23,6 +24,7 @@
   align-items: flex-start;
   padding: 0px;
   gap: 35px;
+  background-color: #ffffff;
 }
 .logolar img {
   width: 120px;
@@ -43,8 +45,9 @@
   margin: 63px 157px 40px 924px;
 }
 .header {
-  width: 1440px;
+  width: 100%;
   height: 738px;
+  background-color: #f4f4f4;
 }
 .dil {
   margin-left: 5px;
@@ -60,7 +63,7 @@
   border: none;
   color: #e92577;
   text-decoration: none;
-  background-color: white;
+  background-color: #f4f4f4;
 }
 .mod {
   font-family: "Inter";
@@ -125,11 +128,20 @@
   text-align: start;
   display: flex;
   flex-direction: column;
-  margin-left: 175px;
+  margin-left: 30px;
+}
+.foto {
+  width: 361px;
+  height: 361px;
+  background-color: red;
+  box-shadow: -20px -20px #e92577;
+  border-radius: 15px;
+  margin-top: 60px;
 }
 .header-main {
   display: flex;
   margin: 151px 171px 94px 162px;
+  width: 100%;
 }
 .header-icons {
   margin-top: 30px;
@@ -168,6 +180,12 @@
   border-radius: 10px;
   box-shadow: 8px 8px grey;
 }
+.info h2 {
+  text-align: start;
+  margin-left: 45px;
+  margin-top: 40px;
+  color: #e92577;
+}
 .about {
   width: 476px;
   height: 241px;
@@ -178,6 +196,7 @@
   justify-content: center;
   text-align: start;
   gap: 40px;
+  margin-top: 30px;
 }
 .project-section {
   background-color: red;
@@ -185,6 +204,7 @@
   width: 100%;
 }
 .footer-section {
+  background-color: #ffffff;
   width: 100%;
   height: 400px;
   display: flex;
@@ -219,4 +239,8 @@
 }
 .links a {
   text-decoration: none;
+}
+.projects {
+  background-color: #ffffff;
+  height: 792px;
 }

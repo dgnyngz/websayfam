@@ -3,7 +3,7 @@ import { Header } from "./comps/Header";
 
 import { Skills } from "./comps/Skill";
 import { Profile } from "./comps/Profile";
-import { Projects } from "./comps/Projects";
+import Projects from "./comps/project/Projects";
 import { Footer } from "./comps/Footer";
 import { themeContext } from "./context/ThemeContext";
 import { languageContext } from "./context/LanguageContext";
