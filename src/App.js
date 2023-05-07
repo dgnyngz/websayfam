@@ -3,6 +3,8 @@ import { Header } from "./comps/Header";
 
 import { Skills } from "./comps/Skill";
 import { Profile } from "./comps/Profile";
+import { Projects } from "./comps/Projects";
+import { Footer } from "./comps/Footer";
 import { themeContext } from "./context/ThemeContext";
 import { languageContext } from "./context/LanguageContext";
 import { useEffect, useState } from "react";
@@ -39,6 +41,8 @@ function App() {
           <Header />
           <Skills />
           <Profile />
+          <Projects />
+          <Footer />
         </languageContext.Provider>
       </themeContext.Provider>
     </div>
