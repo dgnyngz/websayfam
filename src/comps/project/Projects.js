@@ -4,11 +4,13 @@ import ProjectsData from "./ProjectData";
 import { languageContext } from "../../context/LanguageContext";
 import "./Projects.css";
 const Projects = () => {
-  const { data, langueage } = useContext(languageContext);
+  const { data, language } = useContext(languageContext);
   return (
     <div className="projects">
       <div className="container">
-        <h1>{data.projectSection.baslik[langueage]}</h1>
+        <div className="baslik-project">
+          <h2>{data.projectSection.baslik[language]}</h2>
+        </div>
         <div className="project">
           {ProjectsData.map((proje) => (
             <div key={proje.id}>

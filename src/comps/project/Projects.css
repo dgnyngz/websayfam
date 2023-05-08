@@ -2,17 +2,88 @@
 }
 .container {
 }
+.baslik-project {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+  height: 200px;
+  margin-bottom: 0px;
+}
+.baslik-project h2 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 44px;
+  /* identical to box height */
+
+  letter-spacing: 0.01em;
+}
 .project {
+  display: flex;
+  justify-content: center;
+  gap: 64px;
 }
 .projects-box {
+  background-color: aqua;
+  width: 500px;
+  height: 668px;
+  border-radius: 10px;
 }
-.projects-box-img {
+.resimpc {
+  margin-top: 50px;
 }
-.project-img {
+.resim {
+  position: relative;
+  bottom: 320px;
+  height: 265px;
+}
+.projects-aciklama p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  /* or 24px */
+
+  color: #000000;
 }
 .projects-box-text {
+  text-align: start;
+  padding: 30px;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 29px;
+  line-height: 39px;
+  /* identical to box height */
+
+  letter-spacing: 0.05em;
+
+  color: #000000;
 }
-.projects-box-text-button {
+.projects-box-text-pr {
+  display: flex;
+  gap: 30px;
+}
+.projects-box-text-pr p {
+  background-color: #ffffff;
+  border-radius: 76px;
+  padding: 6px 20px 10px;
+}
+.projects-box-text-link div a {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 150%;
+  /* identical to box height, or 30px */
+
+  color: #000000;
+  text-decoration: none;
 }
 .projects-box-text-link {
+  display: flex;
+  justify-content: space-between;
 }
