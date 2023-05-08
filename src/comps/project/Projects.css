@@ -57,15 +57,18 @@
   font-weight: 700;
   font-size: 29px;
   line-height: 39px;
-  /* identical to box height */
-
   letter-spacing: 0.05em;
-
   color: #000000;
+  height: 320px;
 }
 .projects-box-text-pr {
   display: flex;
-  gap: 30px;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+}
+.projects-box-text-pr div {
+  height: 60px;
 }
 .projects-box-text-pr p {
   background-color: #ffffff;

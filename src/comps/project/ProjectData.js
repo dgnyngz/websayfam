@@ -2,8 +2,9 @@ const ProjectsData = [
   {
     id: 1,
     proje: "Pizza Order ",
-    aciklama: "Pizza order website with React components.",
-    konular: ["react", "vercel"],
+    aciklama:
+      "Pizza order website with React components.za order website with React components",
+    konular: ["react", "vercel", "react", "vercel", "react", "vercel"],
     linkler: [
       {
         linkIsim: "View on Github",
