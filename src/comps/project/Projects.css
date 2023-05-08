@@ -1,7 +1,8 @@
 .projects {
+  height: auto;
 }
-.container {
-}
+/* .container {
+} */
 .baslik-project {
   display: flex;
   align-items: center;
@@ -23,6 +24,7 @@
 .project {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
   gap: 64px;
 }
 .projects-box {

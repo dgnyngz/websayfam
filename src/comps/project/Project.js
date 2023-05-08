@@ -26,8 +26,8 @@ export const Project = (props) => {
           ))}
         </div>
       </div>
-      <img className="resimpc" src={rectangle37}></img>
-      <img className="resim" src={rectangle36}></img>
+      <img className="resimpc" src={rectangle37} alt=""></img>
+      <img className="resim" src={rectangle36} alt=""></img>
     </div>
   );
 };
