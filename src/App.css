@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  margin-top: -150px;
+  background-color: #f4f4f4;
 }
 .skill-section {
   height: 490px;
@@ -7,12 +9,14 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
+  gap: 50px;
 }
 .baslik {
   display: flex;
   background-color: #ffffff;
   justify-content: center;
-  margin-bottom: 30px;
+
+  padding: 0;
 }
 .baslik h2 {
   margin-right: 60px;
@@ -112,7 +116,8 @@
   font-weight: 500;
   font-size: 42px;
   line-height: 64px;
-  width: 666px;
+  width: 566px;
+  z-index: 0;
   height: 256px;
 
   letter-spacing: 0.01em;
@@ -136,7 +141,6 @@
   text-align: start;
   display: flex;
   flex-direction: column;
-  margin-left: 30px;
 }
 .foto {
   width: 361px;
@@ -148,8 +152,10 @@
 }
 .header-main {
   display: flex;
-  margin: 151px 171px 94px 162px;
+  justify-content: center;
   width: 100%;
+  margin-top: 80px;
+  gap: 40px;
 }
 .header-icons {
   margin-top: 30px;
@@ -164,16 +170,19 @@
 }
 .profil-baslik h2 {
   color: #0a0a14;
-  width: 122px;
-  height: 58px;
+  padding: 20px;
   font-family: "Inter";
   font-style: normal;
   font-weight: 500;
   font-size: 48px;
   line-height: 58px;
 }
+.profile-main {
+  height: 600px;
+  background-color: #f4f4f4;
+}
 .profile-section {
-  height: 546px;
+  height: auto;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -198,6 +207,7 @@
   width: 476px;
   height: 241px;
   text-align: start;
+  z-index: 1;
 }
 .bilgiler {
   display: flex;
@@ -222,7 +232,7 @@
 }
 .footer-main {
   display: flex;
-  margin-top: 200px;
+  margin-top: 100px;
   gap: 40px;
   font-size: 42px;
 }
@@ -232,7 +242,7 @@
   font-style: normal;
   font-weight: 500;
   font-size: 42px;
-
+  z-index: 1;
   text-align: right;
   letter-spacing: 0.01em;
 
@@ -253,4 +263,53 @@
 .projects {
   background-color: #ffffff;
   height: 792px;
+}
+.no1 {
+  position: relative;
+  width: 148px;
+  height: 31px;
+  left: 82px;
+  top: 309px;
+}
+.no2 {
+  position: relative;
+  width: 217px;
+  height: 59px;
+  left: 960px;
+  top: 636px;
+}
+.no3 {
+  position: relative;
+  width: 121px;
+  height: 121px;
+  left: 438px;
+  top: 865px;
+}
+.no4 {
+  position: relative;
+  width: 181px;
+  height: 49px;
+  left: -669px;
+  top: 1233px;
+}
+.no5 {
+  position: relative;
+  width: 121px;
+  height: 121px;
+  left: 546px;
+  top: 1398px;
+}
+.no6 {
+  position: relative;
+  width: 90px;
+  height: 18px;
+  left: -190px;
+  top: 1570px;
+}
+.no7 {
+  position: relative;
+  width: 275px;
+  height: 18px;
+  left: -500px;
+  top: 3060px;
 }

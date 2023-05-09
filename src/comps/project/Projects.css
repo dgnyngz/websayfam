@@ -27,6 +27,7 @@
   flex-wrap: wrap;
   gap: 64px;
 }
+
 .projects-box {
   background-color: aqua;
   width: 500px;
