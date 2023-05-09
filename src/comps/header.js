@@ -11,14 +11,26 @@ export const Header = () => {
     setLanguage(language === "tr" ? "en" : "tr");
   }
   function mode() {
-    setDarkMode(darkMode === false ? true : false);
+    setDarkMode(!darkMode);
   }
+  const toggleMode = () => {
+    setDarkMode(!darkMode);
+    // Burada mevcut modu tersine çeviriyoruz
+  };
   return (
     <>
       <div className={darkMode ? "header-dark" : "header"}>
         <div className={darkMode ? "mods-dark" : "mods"}>
           <div className={darkMode ? "mod-dark" : "mod"}>
-            <button onClick={mode}>{data.headerSection.mode[language]}</button>
+            <div>
+              <label class="switch">
+                <input type="checkbox" onChange={toggleMode} />
+                <span class="slider round"></span>
+              </label>
+            </div>
+            <div>
+              <p onClick={mode}>{data.headerSection.mode[language]}</p>
+            </div>
           </div>
           <div className="cizgi">
             <hr />
