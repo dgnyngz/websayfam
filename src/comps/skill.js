@@ -6,16 +6,18 @@ import nodeLogo from "../logolar/node.svg";
 import reduxLogo from "../logolar/redux.svg";
 import vsLogo from "../logolar/vscode.svg";
 import reactLogo from "../logolar/react.svg";
+import { themeContext } from "../context/ThemeContext";
 
 export const Skills = () => {
   const { language, data } = useContext(languageContext);
+  const { darkMode } = useContext(themeContext);
   return (
     <>
-      <div className="skill-section">
-        <div className="baslik">
+      <div className={darkMode ? "skill-section-dark" : "skill-section"}>
+        <div className={darkMode ? "baslik-dark" : "baslik"}>
           <h2>{data.headerSection.yetenekler[language]}</h2>
         </div>
-        <div className="logo-container">
+        <div className={darkMode ? "logo-container-dark" : "logo-container"}>
           <div className="logolar">
             <img src={jsLogo} alt="logo"></img>
             <h2>JAVASCRIPT</h2>

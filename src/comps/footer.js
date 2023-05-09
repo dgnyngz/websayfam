@@ -1,11 +1,12 @@
 import { useContext } from "react";
 import { languageContext } from "../context/LanguageContext";
-
+import { themeContext } from "../context/ThemeContext";
 export const Footer = () => {
   const { language, data } = useContext(languageContext);
+  const { darkMode } = useContext(themeContext);
   return (
     <>
-      <div className="footer-section">
+      <div className={darkMode ? "footer-section-dark" : "footer-section"}>
         <div className="footer-main">
           <div className="footer-davet">
             {data.footerSection.istek[language]}

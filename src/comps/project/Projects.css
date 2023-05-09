@@ -1,13 +1,23 @@
 .projects {
   height: auto;
 }
-/* .container {
-} */
+.projects-dark {
+  height: auto;
+  background-color: #484148;
+}
 .baslik-project {
   display: flex;
   align-items: center;
   justify-content: center;
   background-color: #ffffff;
+  height: 200px;
+  margin-bottom: 0px;
+}
+.baslik-project-dark {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #484148;
   height: 200px;
   margin-bottom: 0px;
 }
@@ -17,7 +27,14 @@
   font-weight: 500;
   font-size: 48px;
   line-height: 44px;
-  /* identical to box height */
+
+  letter-spacing: 0.01em;
+}
+.baslik-project-dark h2 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
 
   letter-spacing: 0.01em;
 }

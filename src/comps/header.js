@@ -3,16 +3,23 @@ import { useContext } from "react";
 import linkedin from "../logolar/linkedin.svg";
 import { languageContext } from "../context/LanguageContext";
 import github from "../logolar/github.svg";
+import { themeContext } from "../context/ThemeContext";
 export const Header = () => {
   const { language, data, setLanguage } = useContext(languageContext);
+  const { darkMode, setDarkMode } = useContext(themeContext);
   function dilDegis() {
     setLanguage(language === "tr" ? "en" : "tr");
   }
+  function mode() {
+    setDarkMode(darkMode === false ? true : false);
+  }
   return (
     <>
-      <div className="header">
-        <div className="mods">
-          <div className="mod">{data.headerSection.mode[language]}</div>
+      <div className={darkMode ? "header-dark" : "header"}>
+        <div className={darkMode ? "mods-dark" : "mods"}>
+          <div className={darkMode ? "mod-dark" : "mod"}>
+            <button onClick={mode}>{data.headerSection.mode[language]}</button>
+          </div>
           <div className="cizgi">
             <hr />
           </div>

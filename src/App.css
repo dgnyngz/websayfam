@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-  margin-top: -150px;
+  margin-top: -125px;
   background-color: #f4f4f4;
 }
 .skill-section {
@@ -11,9 +11,25 @@
   flex-direction: column;
   gap: 50px;
 }
+.skill-section-dark {
+  height: 490px;
+  background-color: #484148;
+  color: whitesmoke;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 50px;
+}
 .baslik {
   display: flex;
   background-color: #ffffff;
+  justify-content: center;
+
+  padding: 0;
+}
+.baslik-dark {
+  display: flex;
+  background-color: #484148;
   justify-content: center;
 
   padding: 0;
@@ -38,6 +54,15 @@
   gap: 35px;
   background-color: #ffffff;
 }
+.logo-container-dark {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 35px;
+  background-color: #484148;
+}
 .logolar img {
   width: 120px;
   height: 120px;
@@ -53,13 +78,29 @@
 }
 .mods {
   display: flex;
+  padding-top: 30px;
   justify-content: flex-end;
-  margin: 63px 157px 40px 924px;
+  margin: 0px 157px 40px 924px;
+}
+.mods-dark {
+  display: flex;
+  padding-top: 30px;
+  justify-content: flex-end;
+  margin: 0px 157px 40px 924px;
+  background-color: #2a262b;
+}
+.mods-dark button {
+  background-color: #2a262b;
 }
 .header {
   width: 100%;
   height: 738px;
   background-color: #f4f4f4;
+}
+.header-dark {
+  width: 100%;
+  height: 738px;
+  background-color: #2a262b;
 }
 .dil {
   margin-left: 5px;
@@ -77,15 +118,32 @@
   text-decoration: none;
   background-color: #f4f4f4;
 }
-.mod {
+.mod button {
   font-family: "Inter";
   font-style: normal;
   font-weight: 700;
   font-size: 15px;
-  line-height: 25px;
+  line-height: 18px;
   letter-spacing: 0.1em;
-
+  cursor: pointer;
+  border: none;
   color: #777777;
+  text-decoration: none;
+  background-color: #f4f4f4;
+}
+.mod-dark button {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: 0.1em;
+  cursor: pointer;
+  border: none;
+  color: #777777;
+  text-decoration: none;
+  color: white;
+  background-color: #2a262b;
 }
 .cizgi {
   display: flex;
@@ -181,6 +239,10 @@
   height: 600px;
   background-color: #f4f4f4;
 }
+.profile-main-dark {
+  height: 600px;
+  background-color: #2a262b;
+}
 .profile-section {
   height: auto;
   width: 100%;
@@ -190,8 +252,26 @@
   background-color: #f4f4f4;
   align-items: center;
 }
+.profile-section-dark {
+  height: auto;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  background-color: #2a262b;
+
+  align-items: center;
+}
+
 .info {
   background-color: white;
+  width: 508px;
+  height: 322px;
+  border-radius: 10px;
+  box-shadow: 8px 8px grey;
+}
+.info-dark {
+  background-color: #525252;
   width: 508px;
   height: 322px;
   border-radius: 10px;
@@ -209,6 +289,13 @@
   text-align: start;
   z-index: 1;
 }
+.about-dark {
+  width: 476px;
+  height: 241px;
+  text-align: start;
+  z-index: 1;
+  background-color: #2a262b;
+}
 .bilgiler {
   display: flex;
   justify-content: center;
@@ -223,6 +310,15 @@
 }
 .footer-section {
   background-color: #ffffff;
+  width: 100%;
+  height: 500px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer-section-dark {
+  background-color: #484148;
   width: 100%;
   height: 500px;
 
@@ -269,13 +365,13 @@
   width: 148px;
   height: 31px;
   left: 52px;
-  top: 309px;
+  top: 269px;
 }
 .no2 {
   position: relative;
   width: 217px;
   height: 59px;
-  left: 960px;
+  left: 970px;
   top: 636px;
 }
 .no3 {
@@ -283,21 +379,21 @@
   width: 121px;
   height: 121px;
   left: 438px;
-  top: 865px;
+  top: 805px;
 }
 .no4 {
   position: relative;
   width: 181px;
   height: 49px;
   left: -669px;
-  top: 1233px;
+  top: 1133px;
 }
 .no5 {
   position: relative;
   width: 121px;
   height: 121px;
-  left: 546px;
-  top: 1398px;
+  left: 548px;
+  top: 1298px;
 }
 .no6 {
   position: relative;
@@ -311,5 +407,5 @@
   width: 275px;
   height: 18px;
   left: -500px;
-  top: 3083px;
+  top: 3023px;
 }

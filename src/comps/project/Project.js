@@ -1,7 +1,9 @@
-import React from "react";
+import React, { useContext } from "react";
 import rectangle37 from "../../logolar/rectangle37.svg";
 import rectangle36 from "../../logolar/rectangle36.svg";
+import { themeContext } from "../../context/ThemeContext";
 export const Project = (props) => {
+  const { darkMode } = useContext(themeContext);
   return (
     <div className="projects-box">
       <div className="projects-box-text">

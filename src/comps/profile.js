@@ -1,15 +1,17 @@
 import { useContext } from "react";
 import { languageContext } from "../context/LanguageContext";
+import { themeContext } from "../context/ThemeContext";
 export const Profile = () => {
   const { language, data } = useContext(languageContext);
+  const { darkMode } = useContext(themeContext);
   return (
     <>
-      <div className="profile-main">
+      <div className={darkMode ? "profile-main-dark" : "profile-main"}>
         <div className="profil-baslik">
           <h2>{data.profileSection.baslik[language]}</h2>
         </div>
-        <div className="profile-section">
-          <div className="info">
+        <div className={darkMode ? "profile-section-dark" : "profile-section"}>
+          <div className={darkMode ? " info-dark" : "info"}>
             <h2>{data.profileSection.bilgi[language]}</h2>
             <div className="bilgiler">
               <div>
@@ -26,7 +28,7 @@ export const Profile = () => {
               </div>
             </div>
           </div>
-          <div className="about">
+          <div className={darkMode ? "about-dark" : "about"}>
             <h2>{data.profileSection.hakkimda[language]}</h2>
             <p>
               Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam

@@ -18,7 +18,7 @@ import mockData from "./mocks/Data";
 import axios from "axios";
 function App() {
   const [data, setData] = useState();
-  const [theme, setTheme] = useState("dark");
+  const [darkMode, setDarkMode] = useState(true);
   const [language, setLanguage] = useState("tr");
   useEffect(() => {
     async function fetchData() {
@@ -42,7 +42,7 @@ function App() {
 
   return (
     <div className="App">
-      <themeContext.Provider value={{ theme, setTheme }}>
+      <themeContext.Provider value={{ darkMode, setDarkMode }}>
         <languageContext.Provider value={{ language, setLanguage, data }}>
           <img className="no1" src={no1} alt=""></img>
           <img className="no2" src={no2} alt=""></img>
