@@ -5,6 +5,21 @@
   height: auto;
   background-color: #484148;
 }
+.projects-dark .projects-box-text-pr p {
+  background-color: #525252;
+}
+.projects-dark .project .projects-box {
+  background-color: #2d3235;
+}
+.projects-dark .project .projects-box h2 {
+  color: #ffffff;
+}
+.projects-dark .project .projects-box p {
+  color: #ffffff;
+}
+.projects-dark .projects-box-text-link a {
+  color: #ffffff;
+}
 .baslik-project {
   display: flex;
   align-items: center;
@@ -35,7 +50,7 @@
   font-style: normal;
   font-weight: 500;
   font-size: 48px;
-
+  color: #ffffff;
   letter-spacing: 0.01em;
 }
 .project {
@@ -46,7 +61,7 @@
 }
 
 .projects-box {
-  background-color: aqua;
+  background-color: #ddeefe;
   width: 500px;
   height: 694px;
   border-radius: 10px;

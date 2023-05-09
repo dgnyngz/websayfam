@@ -11,7 +11,7 @@ const ProjectsData = [
         site: "https://github.com/dgnyngz/fsweb-s7-challenge-pizza",
       },
       {
-        linkIsim: "Go to App",
+        linkIsim: "Go to App \u2192",
         site: "https://github.com/dgnyngz/fsweb-s7-challenge-pizza",
       },
     ],
@@ -28,7 +28,7 @@ const ProjectsData = [
         site: "https://github.com/dgnyngz/fsweb-s7-challenge-pizza",
       },
       {
-        linkIsim: "Go to App",
+        linkIsim: "Go to App \u2192",
         site: "https://github.com/dgnyngz/fsweb-s7-challenge-pizza",
       },
     ],
