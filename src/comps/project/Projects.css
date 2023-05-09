@@ -31,7 +31,7 @@
 .projects-box {
   background-color: aqua;
   width: 500px;
-  height: 668px;
+  height: 694px;
   border-radius: 10px;
 }
 .resimpc {
@@ -92,4 +92,7 @@
 .projects-box-text-link {
   display: flex;
   justify-content: space-between;
+}
+.fotograflar {
+  margin-top: 20px;
 }

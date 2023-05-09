@@ -155,7 +155,7 @@
   justify-content: center;
   width: 100%;
   margin-top: 80px;
-  gap: 40px;
+  gap: 100px;
 }
 .header-icons {
   margin-top: 30px;
@@ -186,7 +186,7 @@
   width: 100%;
   display: flex;
   justify-content: center;
-  gap: 30px;
+  gap: 50px;
   background-color: #f4f4f4;
   align-items: center;
 }
@@ -268,7 +268,7 @@
   position: relative;
   width: 148px;
   height: 31px;
-  left: 82px;
+  left: 52px;
   top: 309px;
 }
 .no2 {
@@ -303,7 +303,7 @@
   position: relative;
   width: 90px;
   height: 18px;
-  left: -190px;
+  left: -180px;
   top: 1570px;
 }
 .no7 {
@@ -311,5 +311,5 @@
   width: 275px;
   height: 18px;
   left: -500px;
-  top: 3060px;
+  top: 3083px;
 }
