@@ -15,7 +15,6 @@ const ProjectsData = [
         site: "https://github.com/dgnyngz/fsweb-s7-challenge-pizza",
       },
     ],
-    // imageLink: pizzaProject,
   },
   {
     id: 2,
@@ -32,7 +31,6 @@ const ProjectsData = [
         site: "https://github.com/dgnyngz/fsweb-s7-challenge-pizza",
       },
     ],
-    // imageLink: pizzaProject,
   },
   // {
   //   id: 3,
@@ -49,7 +47,7 @@ const ProjectsData = [
   //       site: "https://github.com/dgnyngz/fsweb-s7-challenge-pizza",
   //     },
   //   ],
-  //   // imageLink: pizzaProject,
+  //
   // },
   // {
   //   id: 4,
@@ -66,7 +64,7 @@ const ProjectsData = [
   //       site: "https://github.com/dgnyngz/fsweb-s7-challenge-pizza",
   //     },
   //   ],
-  //   // imageLink: pizzaProject,
+  //
   // },
 ];
 export default ProjectsData;

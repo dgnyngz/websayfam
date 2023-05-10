@@ -18,9 +18,16 @@ import mockData from "./mocks/Data";
 import axios from "axios";
 function App() {
   const [data, setData] = useState();
-  const [darkMode, setDarkMode] = useState(true);
-  const [language, setLanguage] = useState("tr");
+  const [darkMode, setDarkMode] = useState(
+    localStorage.getItem("darkMode") === "true"
+  );
+  const [language, setLanguage] = useState(
+    localStorage.getItem("language") || "tr"
+  );
+
   useEffect(() => {
+    localStorage.setItem("darkMode", darkMode);
+    localStorage.setItem("language", language);
     async function fetchData() {
       try {
         const response = await axios.post(
@@ -33,7 +40,7 @@ function App() {
       }
     }
     fetchData();
-  }, []);
+  }, [darkMode, language]);
 
   if (!data) {
     return <div>Loading...</div>;
