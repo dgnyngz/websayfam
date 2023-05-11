@@ -1,18 +1,17 @@
 const ProjectsData = [
   {
     id: 1,
-    proje: "Pizza Order ",
-    aciklama:
-      "Pizza order website with React components.za order website with React components",
-    konular: ["react", "vercel", "react", "vercel", "react", "vercel"],
+    proje: "Watch List",
+    aciklama: "A watch list site with React-Redux",
+    konular: ["react", "vercel", " redux"],
     linkler: [
       {
         linkIsim: "View on Github",
-        site: "https://github.com/dgnyngz/fsweb-s7-challenge-pizza",
+        site: "https://github.com/dgnyngz/fsweb-s10g3-redux-watchlist",
       },
       {
         linkIsim: "Go to App \u2192",
-        site: "https://github.com/dgnyngz/fsweb-s7-challenge-pizza",
+        site: "https://fsweb-s10g3-redux-watchlist-alpha.vercel.app/",
       },
     ],
   },
@@ -20,7 +19,7 @@ const ProjectsData = [
     id: 2,
     proje: "Pizza Order ",
     aciklama: "Pizza order website with React components.",
-    konular: ["react", "vercel"],
+    konular: ["react", "netlify"],
     linkler: [
       {
         linkIsim: "View on Github",
@@ -28,7 +27,7 @@ const ProjectsData = [
       },
       {
         linkIsim: "Go to App \u2192",
-        site: "https://github.com/dgnyngz/fsweb-s7-challenge-pizza",
+        site: "https://645cf6aba4a03417fa41c503--resilient-sfogliatella-69dc67.netlify.app/pizza",
       },
     ],
   },

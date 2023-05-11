@@ -530,3 +530,37 @@ input:checked + .slider:before {
 .slider.round:before {
   border-radius: 50%;
 }
+@media (max-width: 430px) {
+  .no1,
+  .no2,
+  .no3,
+  .no4,
+  .no5,
+  .no6,
+  .no7 {
+    display: none;
+  }
+  .App {
+    
+  }
+  .mods {
+    
+  }
+  .header-main {
+    flex-direction: column;
+    scale: 0.6;
+    margin-bottom: auto;
+    height: 100%;
+    width: 100%;
+  }
+  .skill-section {
+    flex-direction: column;
+  }
+  .logo-container {
+    display: flex;
+    flex-direction: column;
+    width: 120px;
+    scale: 0.5;
+    flex-shrink: 1;
+  }
+}

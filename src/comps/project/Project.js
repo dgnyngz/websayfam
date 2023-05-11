@@ -22,7 +22,9 @@ export const Project = (props) => {
         <div className="projects-box-text-link">
           {props.linkler.map((link, index) => (
             <div key={index}>
-              <a href={link.site}>{link.linkIsim}</a>
+              <a target="blank" href={link.site}>
+                {link.linkIsim}
+              </a>
             </div>
           ))}
         </div>
