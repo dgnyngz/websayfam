@@ -540,12 +540,12 @@ input:checked + .slider:before {
   .no7 {
     display: none;
   }
-  .App {
+  /* .App {
     
   }
   .mods {
     
-  }
+  } */
   .header-main {
     flex-direction: column;
     scale: 0.6;
