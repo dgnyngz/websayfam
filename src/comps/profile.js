@@ -30,16 +30,8 @@ export const Profile = () => {
           </div>
           <div className={darkMode ? "about-dark" : "about"}>
             <h2>{data.profileSection.hakkimda[language]}</h2>
-            <p>
-              Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-              nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam
-              erat volutpat.
-            </p>
-            <p>
-              Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-              nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam
-              erat volutpat.
-            </p>
+            <p>{data.profileSection.aciklama[language]}</p>
+            <p>{data.profileSection.aciklama2[language]}</p>
           </div>
         </div>
       </div>

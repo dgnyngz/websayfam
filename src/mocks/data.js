@@ -13,11 +13,11 @@ const mockData = {
       en: "Hi!",
     },
     tanitim: {
-      tr: "Ben Doğan. Ben bir full-stack geliştiricisiyim. Sağlam ve ölçeklenebilir ön uç ürünleri üretebilirim. Tanışalım!",
+      tr: "Ben Doğan. Full-stack web geliştiricisiyim.Sağlam ve ölçeklenebilir ürünler üretebilirim. Tanışalım!",
       en: "I’m Doğan. I’m a full-stack developer. I can craft solid and scalable frontend products. Let’s meet!",
     },
     davet: {
-      tr: "Şu anda UX, UI ve Web Tasarım Projesi için Serbest Çalışıyor. Beni ekibinize katılmaya davet edin \u2192 dgnyngz@gmail.com",
+      tr: "Şu anda UX, UI ve Web Tasarım Projesi için Serbest Çalışıyorum. Beni ekibinize katılmaya davet edin \u2192 dgnyngz@gmail.com",
       en: "Currently Freelancing for UX, UI, & Web Design Project . Invite me to join your team \u2192 dgnyngz@gmail.com",
     },
     yetenekler: {
@@ -55,8 +55,12 @@ const mockData = {
       en: "About Me",
     },
     aciklama: {
-      tr: "tr",
-      en: "en",
+      tr: "Yeni bir kariyer yolu olarak yazılımcılığı seçme kararı aldım.İnşaat mühendisliğinde edindiğim problemleri çözme, verileri analiz etme, ve takım çalışması becerilerini, yazılım geliştirme sürecinde de kullanmak istiyorum.",
+      en: "I decided to choose software engineering as a new career path. I want to use my skills in solving problems, analyzing data, and teamwork that I gained in civil engineering in the software development process.",
+    },
+    aciklama2: {
+      tr: "Kendimi sürekli geliştirerek ve öğrenerek, yeni teknolojileri öğrenip, inovatif fikirlerle katkıdabulunmak istiyorum.",
+      en: "I want to contribute with innovative ideas by constantly improving and learning myself, learning new technologies.",
     },
   },
   projectSection: {
