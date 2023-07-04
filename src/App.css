@@ -666,7 +666,6 @@ input:checked + .slider:before {
   }
 
   .bilgiler {
-    flex-direction: column;
     align-items: center;
     gap: 20px;
   }
@@ -717,10 +716,10 @@ input:checked + .slider:before {
     font-size: 14px;
   }
   * {
-    scale: 95%;
+    scale: 94%;
   }
   .xx {
-    scale: 80%;
+    scale: 70%;
     margin-left: 20px;
   }
   .projects-box {
@@ -737,16 +736,14 @@ input:checked + .slider:before {
     margin: auto;
   }
   body {
-    margin: 0; /* Sayfanın kenar boşluklarını kaldırır */
-    padding: 0; /* Sayfanın iç boşluklarını kaldırır */
+    margin-top: -750px; /* Sayfanın kenar boşluklarını kaldırır */
+    margin-bottom: -1000px;
+    margin-left: -120px;
+    padding-right: -100px;
   }
   .App {
-    margin: 0; /* Sayfanın kenar boşluklarını kaldırır */
-    padding: 0; /* Sayfanın iç boşluklarını kaldırır */
-  }
-  html {
-    margin: 0; /* Sayfanın kenar boşluklarını kaldırır */
-    padding: 0; /* Sayfanın iç boşluklarını kaldırır */
+    scale: 80%;
+    width: 100%;
   }
 }
 
