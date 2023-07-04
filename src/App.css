@@ -530,7 +530,152 @@ input:checked + .slider:before {
 .slider.round:before {
   border-radius: 50%;
 }
-@media (max-width: 430px) {
+/* Mobil cihazlar (max-width: 576px) */
+@media (max-width: 576px) {
+  .App {
+    margin-top: 0;
+  }
+
+  .skill-section,
+  .skill-section-dark {
+    height: auto;
+  }
+
+  .baslik,
+  .baslik-dark {
+    flex-direction: column;
+  }
+
+  .baslik h2,
+  .baslik-dark h2 {
+    margin-right: 0;
+    margin-bottom: 20px;
+    width: auto;
+    height: auto;
+    font-size: 32px;
+    line-height: 40px;
+    text-align: center;
+  }
+
+  .logo-container,
+  .logo-container-dark {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .logolar img {
+    width: 80px;
+    height: 80px;
+  }
+
+  .logolar h2 {
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+  }
+
+  .mods,
+  .mods-dark {
+    margin: 0;
+  }
+
+  .mods-dark .dil-button {
+    margin-top: 10px;
+  }
+
+  .header,
+  .header-dark {
+    height: auto;
+  }
+
+  .header-dark .xx div {
+    text-align: center;
+  }
+
+  .dil {
+    justify-content: center;
+  }
+
+  .foto {
+    width: 100%;
+    height: auto;
+    margin-top: 40px;
+  }
+
+  .header-main {
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+  }
+
+  .profil-baslik {
+    margin-bottom: 40px;
+  }
+
+  .profil-baslik h2 {
+    padding: 10px;
+    font-size: 32px;
+    line-height: 40px;
+  }
+
+  .profile-main,
+  .profile-main-dark {
+    height: auto;
+  }
+
+  .profile-main-dark h2 {
+    text-align: center;
+  }
+
+  .profile-section,
+  .profile-section-dark {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .info,
+  .info-dark {
+    width: 100%;
+    height: auto;
+    margin-bottom: 30px;
+  }
+
+  .info h2,
+  .info-dark h2 {
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 24px;
+  }
+
+  .about,
+  .about-dark {
+    width: 100%;
+    height: auto;
+  }
+
+  .about h2,
+  .about-dark h2 {
+    font-size: 24px;
+  }
+
+  .about p,
+  .about-dark p {
+    font-size: 16px;
+  }
+
+  .bilgiler {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .project-section,
+  .projects {
+    height: auto;
+  }
+
   .no1,
   .no2,
   .no3,
@@ -540,27 +685,79 @@ input:checked + .slider:before {
   .no7 {
     display: none;
   }
-  /* .App {
-    
+
+  .footer-section,
+  .footer-section-dark {
+    height: auto;
   }
-  .mods {
-    
-  } */
-  .header-main {
+  .social-links,
+  .social-links-dark {
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+
+  .social-links a {
+    width: 30px;
+    height: 30px;
+  }
+
+  .footer-bottom-text {
     flex-direction: column;
-    scale: 0.6;
-    margin-bottom: auto;
-    height: 100%;
-    width: 100%;
+    align-items: center;
+    gap: 10px;
   }
-  .skill-section {
+
+  .footer-bottom-text p {
+    font-size: 14px;
+  }
+
+  .footer-bottom-text a {
+    font-size: 14px;
+  }
+  * {
+    scale: 95%;
+  }
+  .xx {
+    scale: 80%;
+    margin-left: 20px;
+  }
+  .projects-box {
+    scale: 90%;
+  }
+  .footer-davet {
+    scale: 50%;
+  }
+  .footer-main {
+    gap: 0px;
     flex-direction: column;
   }
-  .logo-container {
-    display: flex;
-    flex-direction: column;
-    width: 120px;
-    scale: 0.5;
-    flex-shrink: 1;
+  .links {
+    margin: auto;
   }
+  body {
+    margin: 0; /* Sayfanın kenar boşluklarını kaldırır */
+    padding: 0; /* Sayfanın iç boşluklarını kaldırır */
+  }
+  .App {
+    margin: 0; /* Sayfanın kenar boşluklarını kaldırır */
+    padding: 0; /* Sayfanın iç boşluklarını kaldırır */
+  }
+  html {
+    margin: 0; /* Sayfanın kenar boşluklarını kaldırır */
+    padding: 0; /* Sayfanın iç boşluklarını kaldırır */
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  /* CSS kodları buraya gelecek */
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* CSS kodları buraya gelecek */
+}
+
+@media (min-width: 1200px) {
+  /* CSS kodları buraya gelecek */
 }
