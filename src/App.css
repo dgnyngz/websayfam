@@ -738,12 +738,12 @@ input:checked + .slider:before {
   body {
     margin-top: -750px; /* Sayfanın kenar boşluklarını kaldırır */
     margin-bottom: -1000px;
-    margin-left: -120px;
-    padding-right: -100px;
+    margin-left: -100px;
+    margin-right: -110px;
   }
   .App {
     scale: 80%;
-    width: 100%;
+    width: auto;
   }
 }
 
